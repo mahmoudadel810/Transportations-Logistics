@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Orange background circle -->
+  <circle cx="30" cy="30" r="25" fill="#FF8C00" stroke="#FF6B00" stroke-width="2"/>
+  
+  <!-- Orange fruit shape -->
+  <ellipse cx="30" cy="30" rx="18" ry="20" fill="#FFA500"/>
+  
+  <!-- Orange segments -->
+  <path d="M 15 30 Q 30 20 45 30 Q 30 40 15 30" fill="#FF8C00" opacity="0.7"/>
+  <path d="M 30 15 Q 35 30 30 45 Q 25 30 30 15" fill="#FF8C00" opacity="0.7"/>
+  
+  <!-- Orange leaf -->
+  <ellipse cx="35" cy="18" rx="4" ry="8" fill="#228B22" transform="rotate(30 35 18)"/>
+  
+  <!-- Crown elements -->
+  <polygon points="25,12 30,8 35,12 32,15 28,15" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+  <circle cx="27" cy="13" r="1.5" fill="#FF6B00"/>
+  <circle cx="33" cy="13" r="1.5" fill="#FF6B00"/>
+  
+  <!-- Company text -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF6B00">King</text>
+  <text x="70" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF8C00">Orange</text>
+  
+  <!-- Arabic text -->
+  <text x="140" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF6B00" text-anchor="start">كينج</text>
+  <text x="140" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF8C00" text-anchor="start">أورانج</text>
+</svg>
